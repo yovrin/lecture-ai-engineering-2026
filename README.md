@@ -30,6 +30,12 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+続けて質問し、前の質問と回答を踏まえて会話する場合は、対話モードを使います。
+
+```bash
+uv run python -m app.ask --interactive
+```
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
